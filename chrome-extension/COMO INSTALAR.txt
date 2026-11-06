@@ -1,0 +1,39 @@
+RPGpédia -> Owlbear  |  Como instalar
+=====================================
+
+Esta extensão manda as rolagens da sua ficha do rpgpedia.com para a sala do
+Owlbear, para a mesa toda ver. Funciona no Chrome, Edge, Brave e Opera.
+
+INSTALAÇÃO (uma vez só)
+-----------------------
+1. Extraia este zip numa pasta que você NÃO vai apagar.
+   Exemplo: Documentos\RPGpedia-Owlbear
+   Importante: se a pasta for apagada ou movida, a extensão para de funcionar.
+
+2. No navegador, abra o endereço:  chrome://extensions
+   (no Edge: edge://extensions)
+
+3. Ligue o "Modo do desenvolvedor" (chave no canto superior direito).
+
+4. Clique em "Carregar sem compactação" e escolha a pasta extraída
+   (a pasta onde está o arquivo manifest.json).
+
+5. Pronto. Se quiser, fixe o ícone da extensão na barra (ícone de quebra-cabeça).
+
+PARA JOGAR
+----------
+1. Abra sua ficha no rpgpedia.com numa aba.
+2. Abra a sala do Owlbear em outra aba, no MESMO navegador.
+   Se as abas já estavam abertas antes de instalar, recarregue as duas (F5).
+3. No Owlbear, clique no ícone "Rolagens RPGpédia".
+   Deve aparecer "Extensão do Chrome conectada".
+4. Role normalmente na ficha. A rolagem aparece no Owlbear para todo mundo.
+
+NÃO FUNCIONOU?
+--------------
+- Recarregue as abas do rpgpedia e do Owlbear.
+- Clique no ícone da extensão: ela mostra a última rolagem capturada.
+  - Se a rolagem aparece ali mas não no Owlbear: confira se a sala está com a
+    extensão "Rolagens RPGpédia" ativada.
+  - Se nem ali aparece: avise o mestre e diga qual sistema é a sua ficha.
+- O Chrome pode avisar sobre "extensões em modo desenvolvedor". Pode ignorar.
