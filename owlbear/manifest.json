@@ -1,0 +1,16 @@
+{
+  "name": "Rolagens RPGpédia",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Mostra no Owlbear, para toda a mesa, as rolagens feitas nas fichas do rpgpedia.com.",
+  "author": "Kevin Araujo",
+  "icon": "https://kevinaraujo22.github.io/owlbear-rpgpedia/owlbear/icon.svg",
+  "action": {
+    "title": "Rolagens RPGpédia",
+    "icon": "https://kevinaraujo22.github.io/owlbear-rpgpedia/owlbear/icon.svg",
+    "popover": "https://kevinaraujo22.github.io/owlbear-rpgpedia/owlbear/index.html",
+    "height": 560,
+    "width": 380
+  },
+  "background_url": "https://kevinaraujo22.github.io/owlbear-rpgpedia/owlbear/background.html"
+}

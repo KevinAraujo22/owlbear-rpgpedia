@@ -1,0 +1,11 @@
+{
+  "name": "owlbear-rpgpedia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rolagens do rpgpedia.com no Owlbear Rodeo (extensão do Owlbear + extensão do Chrome).",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test test/"
+  }
+}

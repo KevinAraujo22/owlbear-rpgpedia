@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="rpgpedia-owlbear-bridge" content="popover" />
+    <title>Rolagens RPGpédia</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="title">
+        <img src="./icon.svg" alt="" width="22" height="22" />
+        <h1>Rolagens RPGpédia</h1>
+      </div>
+      <button id="settings-toggle" class="icon-btn" type="button" aria-expanded="false" aria-controls="settings" title="Configurações">⚙</button>
+    </header>
+
+    <div id="bridge-status" class="status status--unknown" role="status">
+      <span class="dot"></span><span class="text">Procurando a extensão do Chrome…</span>
+    </div>
+
+    <section id="settings" class="settings" hidden>
+      <label class="row"><input type="checkbox" id="opt-notify" /> Mostrar notificação a cada rolagem</label>
+      <label class="row"><input type="checkbox" id="opt-mesa" /> Também enviar para o “Chat da Mesa”</label>
+      <div class="row buttons">
+        <button id="btn-test" type="button">Rolagem de teste</button>
+        <button id="btn-clear" type="button" class="danger">Limpar histórico</button>
+      </div>
+      <p class="hint">A rolagem de teste aparece só para você.</p>
+    </section>
+
+    <main id="feed" class="feed" aria-live="polite"></main>
+
+    <template id="empty-tpl">
+      <div class="empty">
+        <p><strong>Nenhuma rolagem ainda.</strong></p>
+        <p>Abra sua ficha no <a href="https://rpgpedia.com" target="_blank" rel="noopener">rpgpedia.com</a> em outra aba e role um teste — ele aparece aqui para toda a mesa.</p>
+      </div>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
